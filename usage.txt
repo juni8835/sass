@@ -1,0 +1,13 @@
+1. 값 나열 (원시 값)
+- abstracts > primitives 
+
+2. 값 변수화 (토큰 생성)
+- abstracts > tokens 
+
+3. 사용자 변수 설정
+- abstracts > variables
+
+4. 폰트위계 및 공통 스타일 설정 
+- common > typography
+- common > section
+- common > content 

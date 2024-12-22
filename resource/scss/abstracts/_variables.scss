@@ -1,0 +1,26 @@
+@use "sass:meta";
+@use "sass:map";
+@use "./tokens" as token;
+
+$variables: (
+  default: (
+    header: (
+      height: 10rem,
+      bg: var(--clr-base-white),
+    ),
+    tran: (
+      15: 0.15s ease-in-out,
+      30: 0.3s ease-in-out,
+    ),
+  ),
+  2xl: (),
+  xl: (),
+  lg: (
+    header-height: 7rem,
+    header-bg: var(--clr-surface-50),
+  ),
+  md: (),
+  sm: (),
+);
+
+$breakpoints: map.get(token.$application, "point");
